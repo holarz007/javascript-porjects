@@ -1,0 +1,62 @@
+.services{
+    text-shadow: 5px 3px 8px black;
+    text-decoration: underline;
+}
+
+.programs{
+    margin-top: 11rem;
+}
+.prog_all_container{
+    margin-top: 7rem;
+}
+.prog-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.program_text{
+    text-align: center;
+    line-height: 2;
+    margin-bottom: 1.5rem;
+    border: 1px double white;
+    padding: .8rem;
+    background: var(--color-warning);
+    color: black;
+}
+.program_text h3{
+    color: black;
+    font-size: 30px;
+    
+}
+.program_text p{
+    font-size: 20px;
+    color: black;
+    text-decoration: underline;
+}
+.course-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 35px;
+    list-style-type: square;
+}
+.course-container li{
+    list-style-type: square;
+    text-shadow: 5px 3px 8px black
+}
+
+/* ============================ MEDIA QUERIES (TABLET) =========================== */
+
+@media screen and (max-width: 1024px) {
+    .programs{
+        margin-top: 9rem;
+    }
+    .prog-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 7rem;
+        align-items: center;
+    }
+}
+
+/* ============================ MEDIA QUERIES (PHONES) =========================== */
